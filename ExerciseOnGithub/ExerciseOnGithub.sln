@@ -1,0 +1,15 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "JavaScriptSharedProject", "JavaScriptSharedProject1\JavaScriptSharedProject.shproj", "{F89522C6-EF1C-44F4-A369-1BD40650E0C6}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		JavaScriptSharedProject1\JavaScriptSharedProject.projitems*{f89522c6-ef1c-44f4-a369-1bd40650e0c6}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
