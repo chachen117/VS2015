@@ -7,5 +7,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="$(MSBuildThisFileDirectory)p25_if_Statement.html" />
+    <Content Include="$(MSBuildThisFileDirectory)p26_switch_Statement.html" />
   </ItemGroup>
 </Project>
