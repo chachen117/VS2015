@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>if statement</title>
+</head>
+<body>
+    <div>內容在此處出現。</div>
+    <script language="javascript"> 
+        var iNumber = Number(prompt("enter 5~100", ""));
+        if (isNaN(iNumber))
+            document.write("your input isn't correct!")
+        else if (iNumber > 100 || iNumber < 5)
+            document.write("your input isn't between 5 and 100!")
+        else
+            document.write("your input is : " + iNumber);
+    </script>
+</body>
+</html>
