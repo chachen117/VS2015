@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>do while statement</title>
+</head>
+<body>
+    <div>內容在此處出現。</div>
+
+    <script language="javascript">
+
+        var aNumbers = new Array();
+        var sMessage = "You ipnut :\n";
+        var iTotal = 0;
+        var vUserInput;
+        var iArraryIndex = 0;
+
+        do {
+            vUserInput = prompt("Enter a number or input '0' to quit", "0");
+
+            if (isNaN(vUserInput)) {
+                document.write("Error input, please input number, or input '0' to quit", "0");
+                //break;
+                continue;
+            }
+
+            aNumbers[iArraryIndex] = vUserInput;            
+            iArraryIndex++;
+            //iTotal += Number(vUserInput);
+            //sMessage += vUserInput + "\n";
+        } while (vUserInput != 0)
+
+        for (var i = 0; i < aNumbers.length; i++) {
+            iTotal += Number(aNumbers[i]);
+            sMessage += aNumbers[i] + "\n";
+        }
+
+        sMessage += "total:" + iTotal;
+        alert(sMessage);
+
+    </script>
+
+</body>
+</html>

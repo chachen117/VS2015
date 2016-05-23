@@ -6,7 +6,10 @@
     <SharedGUID>f89522c6-ef1c-44f4-a369-1bd40650e0c6</SharedGUID>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="$(MSBuildThisFileDirectory)p25_if_Statement.html" />
-    <Content Include="$(MSBuildThisFileDirectory)p26_switch_Statement.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Ch2\p25_if_Statement.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Ch2\p26_switch_Statement.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Ch2\p27_while_statement.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Ch2\p28_do_while_statement.html" />
+    <Content Include="$(MSBuildThisFileDirectory)Ch2\p31_for_in_statement.html" />
   </ItemGroup>
 </Project>

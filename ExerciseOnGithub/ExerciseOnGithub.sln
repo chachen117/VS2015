@@ -5,9 +5,21 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "JavaScriptSharedProject", "JavaScriptSharedProject1\JavaScriptSharedProject.shproj", "{F89522C6-EF1C-44F4-A369-1BD40650E0C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadFirstCSharp", "HeadFirstCSharp\HeadFirstCSharp.csproj", "{6E3F6226-822E-40D9-BFFE-CEE58718E05F}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		JavaScriptSharedProject1\JavaScriptSharedProject.projitems*{f89522c6-ef1c-44f4-a369-1bd40650e0c6}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E3F6226-822E-40D9-BFFE-CEE58718E05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E3F6226-822E-40D9-BFFE-CEE58718E05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E3F6226-822E-40D9-BFFE-CEE58718E05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E3F6226-822E-40D9-BFFE-CEE58718E05F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
