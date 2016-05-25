@@ -45,20 +45,20 @@ namespace HeadFirstCSharp.Ch16_LINQ
             return values;
         }
 
-        static void Main(string[] args)
-        {
-            List<Comic> comics = BuildCatalog();
-            Dictionary<int, int> values = GetPrices();
+        //static void Main(string[] args)
+        //{
+        //    List<Comic> comics = BuildCatalog();
+        //    Dictionary<int, int> values = GetPrices();
 
-            var mostExpensive = from comic in comics
-                                where values[comic.Issue] > 500
-                                orderby values[comic.Issue] descending
-                                select comic;
+        //    var mostExpensive = from comic in comics
+        //                        where values[comic.Issue] > 500
+        //                        orderby values[comic.Issue] descending
+        //                        select comic;
 
-            foreach (Comic comic in mostExpensive)
-                Console.WriteLine("{0} is worth {1:c}", comic.Name, values[comic.Issue]);
+        //    foreach (Comic comic in mostExpensive)
+        //        Console.WriteLine("{0} is worth {1:c}", comic.Name, values[comic.Issue]);
 
-            Console.ReadLine();
-        }
+        //    Console.ReadLine();
+        //}
     }
 }

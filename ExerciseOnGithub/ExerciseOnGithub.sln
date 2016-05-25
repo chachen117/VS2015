@@ -5,7 +5,9 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "JavaScriptSharedProject", "JavaScriptSharedProject1\JavaScriptSharedProject.shproj", "{F89522C6-EF1C-44F4-A369-1BD40650E0C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeadFirstCSharp", "HeadFirstCSharp\HeadFirstCSharp.csproj", "{6E3F6226-822E-40D9-BFFE-CEE58718E05F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFCSharp_Winform", "HFCSharp_Winform\HFCSharp_Winform.csproj", "{8056C904-C51E-4676-BFD4-98F8C8ABBCBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFCSharp_Console", "HFCSharp_Console\HFCSharp_Console.csproj", "{6E3F6226-822E-40D9-BFFE-CEE58718E05F}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -16,6 +18,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8056C904-C51E-4676-BFD4-98F8C8ABBCBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8056C904-C51E-4676-BFD4-98F8C8ABBCBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8056C904-C51E-4676-BFD4-98F8C8ABBCBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8056C904-C51E-4676-BFD4-98F8C8ABBCBC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E3F6226-822E-40D9-BFFE-CEE58718E05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E3F6226-822E-40D9-BFFE-CEE58718E05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E3F6226-822E-40D9-BFFE-CEE58718E05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
