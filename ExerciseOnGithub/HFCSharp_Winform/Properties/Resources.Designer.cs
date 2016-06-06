@@ -59,5 +59,15 @@ namespace HFCSharp_Winform.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   查詢類型 System.Drawing.Bitmap 的當地語系化資源。
+        /// </summary>
+        internal static System.Drawing.Bitmap rODMZf9 {
+            get {
+                object obj = ResourceManager.GetObject("rODMZf9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

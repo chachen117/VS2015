@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFCSharp_Winform", "HFCShar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFCSharp_Console", "HFCSharp_Console\HFCSharp_Console.csproj", "{6E3F6226-822E-40D9-BFFE-CEE58718E05F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpVer7_Console", "CSharpVer7_Console\CSharpVer7_Console.csproj", "{7331098C-CC68-49FF-816D-724FC5E1E738}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		JavaScriptSharedProject1\JavaScriptSharedProject.projitems*{f89522c6-ef1c-44f4-a369-1bd40650e0c6}*SharedItemsImports = 13
@@ -26,6 +28,10 @@ Global
 		{6E3F6226-822E-40D9-BFFE-CEE58718E05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E3F6226-822E-40D9-BFFE-CEE58718E05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E3F6226-822E-40D9-BFFE-CEE58718E05F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7331098C-CC68-49FF-816D-724FC5E1E738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7331098C-CC68-49FF-816D-724FC5E1E738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7331098C-CC68-49FF-816D-724FC5E1E738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7331098C-CC68-49FF-816D-724FC5E1E738}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
